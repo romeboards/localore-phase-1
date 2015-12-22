@@ -7,4 +7,3 @@ bower_components/
 app/tests/coverage/
 .bower-*/
 .idea/
-dist/
