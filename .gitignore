@@ -9,3 +9,4 @@ app/tests/coverage/
 .idea/
 dist/
 .tmp/
+build.sh

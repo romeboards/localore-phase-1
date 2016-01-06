@@ -17,6 +17,11 @@ $(document).ready(function(){
     if($(window).width() >= 768) $hero.height($heroContent.outerHeight());
   });
 
+  if(navigator.userAgent.match(/(iPod|iPhone|iPad)/i)) {
+    console.log('hmm');
+    $('#mc_embed_signup').find('form').removeAttr('target');
+  }
+
   $('.carousel').slick({
     dots: true,
     speed: 350,
