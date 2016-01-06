@@ -18,7 +18,6 @@ $(document).ready(function(){
   });
 
   if(navigator.userAgent.match(/(iPod|iPhone|iPad)/i)) {
-    console.log('hmm');
     $('#mc_embed_signup').find('form').removeAttr('target');
   }
 
