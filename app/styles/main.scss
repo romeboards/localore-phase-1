@@ -85,7 +85,7 @@ section.hero {
 
   .hero-img {
     height: 250px;
-    background: url('http://i.imgur.com/btxmXfa.jpg') no-repeat center;
+    background: url('https://i.imgur.com/btxmXfa.jpg') no-repeat center;
     background-size: cover;
     background-position-y: 50px;
 
@@ -93,7 +93,7 @@ section.hero {
       height: 400px;
     }
     @media screen and (min-width: $grid-md) {
-      background: url('http://i.imgur.com/btxmXfa.jpg') no-repeat fixed center;
+      background: url('https://i.imgur.com/btxmXfa.jpg') no-repeat fixed center;
       background-size: cover;
       height: 100%;
     }
